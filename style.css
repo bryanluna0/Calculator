@@ -9,7 +9,9 @@ body {
     height: fit-content;
     margin-left: auto;
     margin-right: auto;
-    display: block
+    display: block;
+    scale: 3.5;
+    transform: translateY(50%);
 }
 
 #solution {
