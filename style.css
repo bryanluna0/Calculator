@@ -17,8 +17,11 @@ body {
 #solution {
     display: flex;
     align-content: center;
-    justify-content: center;
+    justify-content: right;
+    padding-right: 6px;
     background-color: whitesmoke;
+    border-radius: 4px;
+
 }
 
 #keys {
@@ -33,5 +36,6 @@ div, #keys {
 
 button, #keys {
     flex: 1;
+    border-radius: 8px;
 }
 
