@@ -4,21 +4,32 @@ body {
     background-color: steelblue;
 }
 
+#calculator {
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+
 #solution {
     display: flex;
-    align-self: auto;
-    justify-self: auto;
+    align-content: center;
+    justify-content: center;
     background-color: whitesmoke;
-    
 }
 
 #keys {
     display: flex;
-    align-self: auto;
-    justify-self: auto;
+    flex-direction: column;
+}
+
+div, #keys {
+    justify-items: center;
+    display: flex;
 }
 
 button, #keys {
-    width: 50px;
-    height: 25px;
+    flex: 1;
 }
+
