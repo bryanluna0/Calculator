@@ -12,7 +12,7 @@ function append(number) {
     document.getElementById("solution").innerHTML = solution;    
 }
 
-function clear() {
+function empty() {
     console.log("clear");
     solution = 0;
     document.getElementById("solution").innerHTML = solution;
