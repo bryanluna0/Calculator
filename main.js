@@ -8,12 +8,12 @@ function append(number) {
         return;
     }
     
-    solution = (solution * 10) + number;
+    screen = (screen * 10) + number;
     document.getElementById("screen").innerHTML = screen;
 }
 
 function operation(op) {
-    operation = op;
+    operator = op;
     document.getElementById("screen").innerHTML = 0;
 }
 
@@ -23,6 +23,6 @@ function empty() {
     document.getElementById("screen").innerHTML = screen;
 }
 
-let operation = -1;
+let operator = -1;
 let screen = document.querySelector("#screen");
 screen = 0;
