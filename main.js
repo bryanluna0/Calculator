@@ -2,21 +2,27 @@
 
 function append(number) {
     console.log("num");
-    if (solution == 0) {
-        solution = number;
-        document.getElementById("solution").innerHTML = solution;
+    if (screen == 0) {
+        screen = number;
+        document.getElementById("screen").innerHTML = screen;
         return;
     }
     
     solution = (solution * 10) + number;
-    document.getElementById("solution").innerHTML = solution;    
+    document.getElementById("screen").innerHTML = screen;
+}
+
+function operation(op) {
+    operation = op;
+    document.getElementById("screen").innerHTML = 0;
 }
 
 function empty() {
     console.log("clear");
-    solution = 0;
-    document.getElementById("solution").innerHTML = solution;
+    screen = 0;
+    document.getElementById("screen").innerHTML = screen;
 }
 
-let solution = document.querySelector("#solution");
-solution = 0;
+let operation = -1;
+let screen = document.querySelector("#screen");
+screen = 0;

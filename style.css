@@ -14,7 +14,7 @@ body {
     transform: translateY(50%);
 }
 
-#solution {
+#screen {
     display: flex;
     align-content: center;
     justify-content: right;
