@@ -16,7 +16,6 @@ function operation(op) {
     operator = op;
     operandA = screen;
     screen = 0;
-    document.getElementById("screen").innerHTML = 0;
 }
 
 function empty() {
